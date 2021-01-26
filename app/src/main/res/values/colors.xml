@@ -3,4 +3,11 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="black_12">#12000000</color>
+    <color name="color_screen_background">#fbfbfd</color>
+    <color name="color_card_background">#ffffff</color>
+    <color name="color_title">#8b8da1</color>
+    <color name="color_subtitle_1"> #8b8da1</color>
+    <color name="color_subtitle_2">#b7b5c1</color>
 </resources>

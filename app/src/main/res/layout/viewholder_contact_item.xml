@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    android:background="@color/color_card_background"
+    android:layout_marginTop="@dimen/xsmall"
+    android:layout_marginBottom="@dimen/xsmall"
+    android:layout_marginStart="@dimen/small"
+    android:layout_marginEnd="@dimen/small"
+    tools:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/xsmall"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/textview_profile_image"
+                android:layout_width="@dimen/image_xmedium"
+                android:layout_height="@dimen/image_xmedium"
+                android:background="@drawable/icon_background_dark"
+                android:padding="@dimen/xsmall"
+                android:layout_margin="@dimen/xsmall"
+                tools:src="@drawable/ic_republican_logo" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/xxsmall"
+                android:paddingEnd="@dimen/xxsmall">
+
+                <TextView
+                    android:id="@+id/textview_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/caption_title_2"
+                    android:textStyle="bold"
+                    android:textColor="@color/color_title"
+                    tools:text="Donna Hicks" />
+
+                <TextView
+                    android:id="@+id/textview_party"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/caption_title_2"
+                    android:textColor="@color/color_subtitle_1"
+                    android:textStyle="bold"
+                    tools:text="Admin" />
+
+                <TextView
+                    android:id="@+id/textview_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/color_subtitle_2"
+                    android:textSize="@dimen/caption_title_1"
+                    tools:text="Management" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

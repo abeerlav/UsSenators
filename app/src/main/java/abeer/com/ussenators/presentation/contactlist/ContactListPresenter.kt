@@ -12,15 +12,7 @@ public class ContactListPresenter @Inject constructor(private val usSenatorsRepo
     private lateinit var view: ContactListContract.View
 
     override fun loadContractList() {
-        view.onContractListFetched(usSenatorsRepository.getUsSenatorObjectList())
-    }
-
-    override fun subscribe() {
-        TODO("Not yet implemented")
-    }
-
-    override fun unsubscribe() {
-        TODO("Not yet implemented")
+        view?.onContractListFetched(usSenatorsRepository.getUsSenatorObjectList()?.sortedBy { it.person?.name })
     }
 
     override fun attach(view: ContactListContract.View) {

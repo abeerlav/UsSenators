@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Standard Paddings -->
+    <dimen name="xxxxsmall">2dp</dimen>
+    <dimen name="xxxsmall">4dp</dimen>
+    <dimen name="xxsmall">6dp</dimen>
+    <dimen name="xsmall">8dp</dimen>
+    <dimen name="small">16dp</dimen>
+    <dimen name="medium">24dp</dimen>
+    <dimen name="large">32dp</dimen>
+    <dimen name="xlarge" tools:ignore="UnusedResources">48dp</dimen>
+    <dimen name="xxlarge" tools:ignore="UnusedResources">56dp</dimen>
+    <dimen name="xxxlarge" tools:ignore="UnusedResources">64dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="divider_height_normal">1dp</dimen>
+
+    <!-- Text -->
+    <dimen name="caption_body_1">14sp</dimen>
+    <dimen name="caption_body_2">10sp</dimen>
+    <dimen name="caption_body_3">15sp</dimen>
+    <dimen name="caption_body_4">9sp</dimen>
+    <dimen name="caption_body_5">13sp</dimen>
+    <dimen name="caption_headline">18sp</dimen>
+    <dimen name="caption_headline_2">16sp</dimen>
+    <dimen name="caption_subtitle_1">16sp</dimen>
+    <dimen name="caption_subtitle_2">12sp</dimen>
+    <dimen name="caption_title">24sp</dimen>
+    <dimen name="caption_title_1">14sp</dimen>
+    <dimen name="caption_title_2">16sp</dimen>
+    <dimen name="emoji_single_size">40sp</dimen>
+
+
+    <!-- Image Sizes -->
+    <dimen name="image_small">20dp</dimen>
+    <dimen name="image_small_plus">30dp</dimen>
+    <dimen name="image_medium_small">38dp</dimen>
+    <dimen name="image_medium">55dp</dimen>
+    <dimen name="image_xmedium">70dp</dimen>
+    <dimen name="image_large">120dp</dimen>
+
+</resources>
