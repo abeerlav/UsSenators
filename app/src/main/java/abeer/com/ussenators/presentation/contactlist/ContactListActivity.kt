@@ -19,8 +19,6 @@ class ContactListActivity : Activity(), ContactListContract.View {
 
     @Inject
     lateinit var contactListPresenter: ContactListPresenter
-    @Inject
-    lateinit var jsonParserHelper: JsonParserHelper
 
     private lateinit var contactListAdapter: ContactListAdapter
 
@@ -42,8 +40,7 @@ class ContactListActivity : Activity(), ContactListContract.View {
     }
 
     private fun navigateToDisplayScreen(it: UsSenatorObject?) {
-     //   startActivity( Test.getIntent(this, it?.person))
-   startActivity(DisplayActivity.getIntent(this, it))
+        startActivity(DisplayActivity.getIntent(this, it))
     }
 
     override fun onContractListFetched(items: List<UsSenatorObject>?) {
